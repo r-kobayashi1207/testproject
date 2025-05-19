@@ -1,0 +1,27 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  height:100vh;
+}
+
+.kiramoji{
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  text-align: center;
+  color: #e9feff;
+    text-shadow: 0 0 20px #c2f2ff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
