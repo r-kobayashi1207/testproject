@@ -28,3 +28,9 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+/vendor
+/node_modules
+.env
+/storage/*.key
+/public/storage
